@@ -58,6 +58,8 @@ export function App() {
   return (
     <div class="wrapper">
       <p class="header">CSV export</p>
+      {/*
+      // @ts-ignore */}
       <weave-button onClick={onClick}>Download CSV</weave-button>
     </div>
   );
